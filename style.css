@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(59, 226, 131);
+}
+
+#navbar {
+  background-color: rgb(46, 163, 97);
+  display: flex;
+  justify-content: right;
+  padding: 1em 0;
+  position: sticky; /* sticky navbar */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: rgb(222, 250, 220);
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(48, 130, 62);
+}
+/* 
+section {
+  padding: 2em;
+} */
+
+#big_diaita {
+  font-size: 200px;
+  color:rgb(31, 119, 69);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+#diaita_text {
+  font-size: 100px;
+  color:rgb(36, 142, 82);
+  text-align: center;
+  margin-top: 10px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}

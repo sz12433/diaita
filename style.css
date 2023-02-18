@@ -3,11 +3,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(59, 226, 131);
+  background-color: #E2EFDE;
 }
 
 #navbar {
-  background-color: rgb(46, 163, 97);
+  background-color: #E2EFDE;
   display: flex;
   justify-content: right;
   padding: 1em 0;
@@ -22,34 +22,127 @@ nav ul {
 }
 
 nav a {
-  color: rgb(222, 250, 220);
+  color: #226252;
   display: block;
   padding: 1em;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color:rgb(48, 130, 62);
+  background-color:#308771;
 }
 /* 
 section {
   padding: 2em;
 } */
 
-#big_diaita {
-  font-size: 200px;
-  color:rgb(31, 119, 69);
+/* #home_logo {
+  color: #226252;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+} */
+
+#goodmood_goodfood {
+  font-size: 50px;
+  font-family: sans-serif;
+  color:rgb(0, 0, 0);
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
   margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 650px;
+  display:inline-block;
 }
 
-#diaita_text {
-  font-size: 100px;
-  color:rgb(36, 142, 82);
-  text-align: center;
+.home_desc {
+  font-size: 30px;
+  color: #226252;
+  text-align: left;
   margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 800px;
+  display:inline-block;
+
+}
+
+.download {
+  background-color: #226252; /* Green */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+}
+
+.download:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#home_contact_link {
+  font-size: 30px;
+  color: #226252;
+  text-align: left;
+}
+
+.download , #home_contact_link { /* button lineup */
+  display:inline-block;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+#improve_health {
+  font-size: 50px;
+  font-family: sans-serif;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 650px;
+}
+
+#improve_health_right {
+  font-size: 50px;
+  font-family: sans-serif;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  margin-left: 650px;
+  margin-right: 100px;
+}
+
+#home_desc_right {
+  font-size: 30px;
+  color: #226252;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 800px;
+  margin-right: 100px;
+}
+
+#download_right {
+  background-color: #226252; /* Green */
+  border: none;
+  border-radius: 25px;
+  color: white;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  margin-left: 850px;
+  margin-bottom: 200px;
 }
 
 #contact {

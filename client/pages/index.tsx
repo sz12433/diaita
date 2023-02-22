@@ -1,9 +1,10 @@
 import '@fontsource/open-sans/700.css'
 import '@fontsource/open-sans/400.css'
 import { useDisclosure } from '@chakra-ui/react'
+import Footer from '@/components/footer'
 
 import NavBar from '@/components/naxbar'
-import { Box, SlideFade, Button, Image, HStack, Text, Flex, Link, VStack, Heading } from "@chakra-ui/react"
+import { Center, Box, SlideFade, Button, Image, HStack, Text, Flex, Link, VStack, Heading } from "@chakra-ui/react"
 
 export default function Home() {
   const { isOpen, onToggle } = useDisclosure(); 
@@ -51,6 +52,50 @@ export default function Home() {
         </Box>
         <Image maxWidth="50%" src="landing3.png" alt="picture of woman smiling"></Image>
       </HStack>
+      <HStack>
+          <Box p="2rem" m="2rem">
+            <Heading mb="1rem">A professional team</Heading>
+            <Text mb="1rem">Qualifications, Diaita provides personalized diet and physical activity plans </Text>
+          </Box>
+          <Image maxWidth="50%" src="landing3.png" alt="picture of woman smiling"></Image>
+      </HStack>
+      <Image zIndex="-1" position="absolute" width="100vw" maxHeight="90vh" src="background-wave.png" alt="green background color"></Image>
+      <HStack mt="7rem">
+        <Box>
+          <Center>Testimonial Diaita provides personalized diet and physical activity plans</Center>
+          <Text>-Person, Occupation</Text>
+        </Box>
+        <Box>
+          <Center>Testimonial Diaita provides personalized diet and physical activity plans</Center>
+          <Text>-Person, Occupation</Text>
+        </Box>
+      </HStack>
+      <Box mt="5rem">
+        <Heading>Keep yourself informed</Heading>
+        <HStack>
+          <Box>
+            <Image src="placeholder.png" alt="article picture"></Image>
+            <Heading>Article 1</Heading>
+            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+          </Box>
+          <Box>
+            <Image src="placeholder.png" alt="article picture"></Image>
+            <Heading>Article 1</Heading>
+            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+          </Box>
+          <Box>
+            <Image src="placeholder.png" alt="article picture"></Image>
+            <Heading>Article 1</Heading>
+            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+          </Box>
+        </HStack>
+      </Box>
+      <HStack mt="5rem">
+        <Heading>Get started with Diaita today</Heading>
+        <Button variant="green">Download Diaita</Button>
+        <Link>Contact Us</Link>
+      </HStack>
+      <Footer></Footer>
     </>
   )
 }

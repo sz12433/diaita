@@ -14,6 +14,20 @@ body {
   position: sticky; /* sticky navbar */
 }
 
+a:link {
+  text-decoration: none;
+  color:#226252;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #226252;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   display: flex;
   list-style: none;

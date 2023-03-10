@@ -61,7 +61,7 @@ export default function Home() {
       </HStack>
       <Image zIndex="-1" position="absolute" width="100vw" maxHeight="90vh" src="background-wave.png" alt="green background color"></Image>
       <HStack mt="7rem">
-        <Box>
+        <Box p="2rem" m="2rem">
           <Center>Testimonial Diaita provides personalized diet and physical activity plans</Center>
           <Text>-Person, Occupation</Text>
         </Box>
@@ -71,29 +71,29 @@ export default function Home() {
         </Box>
       </HStack>
       <Box mt="5rem">
-        <Heading>Keep yourself informed</Heading>
-        <HStack>
+        <Heading p="2rem" m="2rem">Keep yourself informed</Heading>
+        <HStack p="2rem" m="2rem">
           <Box>
             <Image src="placeholder.png" alt="article picture"></Image>
-            <Heading>Article 1</Heading>
-            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+            <Heading mt = "1rem" mb="1rem">Article 1</Heading>
+            <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
           </Box>
           <Box>
             <Image src="placeholder.png" alt="article picture"></Image>
-            <Heading>Article 1</Heading>
-            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+            <Heading mt = "1rem" mb="1rem">Article 1</Heading>
+            <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
           </Box>
           <Box>
             <Image src="placeholder.png" alt="article picture"></Image>
-            <Heading>Article 1</Heading>
-            <Text>Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+            <Heading mt = "1rem" mb="1rem">Article 1</Heading>
+            <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
           </Box>
         </HStack>
       </Box>
       <HStack mt="5rem">
-        <Heading>Get started with Diaita today</Heading>
-        <Button variant="green">Download Diaita</Button>
-        <Link>Contact Us</Link>
+        <Heading p="2rem" m="2rem">Get started with Diaita today</Heading>
+        <Button p="2rem" m="2rem" variant="green">Download Diaita</Button>
+        <Link p="2rem" m="2rem">Contact Us</Link>
       </HStack>
       <Footer></Footer>
     </>

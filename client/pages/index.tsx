@@ -29,24 +29,24 @@ export default function Home() {
       
       <HStack mt="3rem" m="2rem"> 
         <Box p="2rem" m="2rem">
-            <Heading mb="1rem">Improve your health</Heading>
-            <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
+            <Heading mb="1rem">Diet</Heading>
+            <Text mb="1rem">Individualized 6 month diet plan carefully crafted based on expert dietician guidance and public health nutrition guidelines </Text>
             <Button variant="green" height="2.5rem" px="1.25rem" fontSize="1rem">Learn more</Button>
         </Box>
-        <Image maxWidth="50%" src="landing1.png" alt="picture of woman smiling"></Image>
+        <Image maxWidth="50%" src="myplate.png" alt="myplate picture"></Image>
       </HStack>
       <Image zIndex="-1" position="absolute" width="100vw" maxHeight="90vh" src="gradient.png" alt="green background color"></Image>
       <HStack mt="3rem" m="2rem"> 
         <Image maxWidth="50%" src="landing2.png" alt="picture of woman smiling"></Image>
         <Box p="2rem" m="2rem">
-            <Heading mb="1rem">Improve your health</Heading>
+            <Heading mb="1rem">Physical Activity</Heading>
             <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
             <Button variant="green" height="2.5rem" px="1.25rem" fontSize="1rem">Learn more</Button>
         </Box>
       </HStack>
       <HStack mt="3rem" m="2rem"> 
         <Box p="2rem" m="2rem">
-            <Heading mb="1rem">Improve your health</Heading>
+            <Heading mb="1rem">Cognitive Behavioral Therapy</Heading>
             <Text mb="1rem">Diaita provides personalized diet and physical activity plans based on diet history and biochemical data. </Text>
             <Button variant="green" height="2.5rem" px="1.25rem" fontSize="1rem">Learn more</Button>
         </Box>

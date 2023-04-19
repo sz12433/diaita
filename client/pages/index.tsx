@@ -55,7 +55,7 @@ export default function Home() {
       <HStack>
           <Box p="2rem" m="2rem">
             <Heading mb="1rem">A professional team</Heading>
-            <Text mb="1rem">Qualifications, Diaita provides personalized diet and physical activity plans </Text>
+            <Text mb="1rem">Diaita's recommendation model is supported by a dedicated team of workers</Text>
           </Box>
           <Image maxWidth="50%" src="landing3.png" alt="picture of woman smiling"></Image>
       </HStack>
